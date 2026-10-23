@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Geo-Inventory: a map pin holding a list. -->
+  <rect width="32" height="32" rx="7" fill="#2f80ed"/>
+  <path d="M16 28.5S7 20.3 7 13.5a9 9 0 0 1 18 0c0 6.8-9 15-9 15z" fill="#fff"/>
+  <path d="M12 10.5h8M12 14h8M12 17.5h5" stroke="#2f80ed" stroke-width="2" stroke-linecap="round"/>
+</svg>

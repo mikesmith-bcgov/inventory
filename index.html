@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geo-Inventory</title>
+  <link rel="icon" type="image/svg+xml" href="/inventory/favicon.svg" />
+  <script type="module" crossorigin src="/inventory/assets/index-Czu16ok6.js"></script>
+  <link rel="stylesheet" crossorigin href="/inventory/assets/index-BnV8ZYCT.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- The toolbar and panel. Laid out on their own (display: contents),
+       except in a portrait window, where they're one bottom sheet: a
+       handle, the toolbar, then the panel (sheet.ts). -->
+  <div id="chrome">
+  <button id="sheet-handle" type="button" aria-label="Panel size" title="Swipe up or down to resize the panel; tap to open it fully, or back"><span class="grip" aria-hidden="true"></span></button>
+  <!-- The toolbar: ui/Toolbar.svelte. -->
+
+  <aside id="panel">
+    <!-- Its sections: ui/Panel.svelte. -->
+  </aside>
+  </div>
+
+  <!-- The help panel (help.ts, ui/HelpPanel.svelte) goes here. -->
+
+  <!-- The ⋮ and right-click menus: ui/Menus.svelte. -->
+  <div id="menus"></div>
+
+</body>
+</html>
